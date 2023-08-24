@@ -1,0 +1,431 @@
+<!DOCTYPE html>
+
+<html>
+  <meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<!--
+  The above 2 meta tags *must* come first in the <head>
+  to consistently ensure proper document rendering.
+  Any other head element should come *after* these tags.
+ -->
+<title>Shafiqul Alam Khan</title>
+<!-- Set the base URL for all relative URLs within the document -->
+<base href="http://localhost:4000">
+
+<!--
+  Allows control over where resources are loaded from.
+  Place as early in the <head> as possible, as the tag  
+  only applies to resources that are declared after it.
+-->
+
+<!-- Short description of the document (limit to 150 characters) -->
+<!-- This content *may* be used as a part of search engine results. -->
+<meta name="description" content="">
+
+<!-- Control the behavior of search engine crawling and indexing -->
+<meta name="robots" content="index,follow"><!-- All Search Engines -->
+<meta name="googlebot" content="index,follow"><!-- Google Specific -->
+
+<!-- Verify website ownership -->
+<meta name="google-site-verification" content=""><!-- Google Search Console -->
+<meta name="yandex-verification" content=""><!-- Yandex Webmasters -->
+<meta name="msvalidate.01" content=""><!-- Bing Webmaster Center -->
+<meta name="alexaVerifyID" content=""><!-- Alexa Console -->
+<meta name="p:domain_verify" content=""><!-- Pinterest Console-->
+<meta name="norton-safeweb-site-verification" content=""><!-- Norton Safe Web -->
+
+<!-- Allows control over how referrer information is passed -->
+<meta name="referrer" content="no-referrer">
+
+<!-- Disable automatic detection and formatting of possible phone numbers -->
+<meta name="format-detection" content="telephone=true">
+
+<!-- Completely opt out of DNS prefetching by setting to "off" -->
+<meta http-equiv="x-dns-prefetch-control" content="on">
+
+<!-- Geo tags -->
+<!-- meta name="ICBM" content="latitude, longitude"-->
+<!-- meta name="geo.position" content="latitude;longitude"-->
+<!-- meta name="geo.region" content="country[-state]"><Country code (ISO 3166-1): mandatory, state code (ISO 3166-2): optional; eg. content="US" / content="US-NY" -->
+<!-- meta name="geo.placename" content="city/town"><eg. content="New York City" -->
+
+<!-- Link to an external CSS file -->
+<link href="https://fonts.googleapis.com/css2?family=Parisienne&family=Courgette&family=Lobster&family=Pacifico&family=Yellowtail&family=Noto+Sans+JP:wght@400;900&family=Poppins:wght@500&family=Righteous&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="/css/main.css">
+<!-- BootStrap CDN --> 
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+<script src="https://kit.fontawesome.com/96d7840f56.js" crossorigin="anonymous"></script>
+
+<script src="https://cdn.jsdelivr.net/npm/chart.js@2.8.0"></script> 
+
+<!--  GIT TALK CDN  for comment system -->
+<!--
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/gitalk@1/dist/gitalk.css">
+<script src="https://cdn.jsdelivr.net/npm/gitalk@1/dist/gitalk.min.js"></script> -->
+
+
+<!-- Provides information about an author or another person -->
+<link rel="me" href="mailto:sakhan@txstate.edu">
+<link rel="me" href="sms:+">
+
+<!-- Open Search -->
+<!-- link rel="search" href="/open-search.xml" type="application/opensearchdescription+xml" title="Search Title" -->
+
+<!-- Feeds -->
+<!-- link rel="alternate" href="https://feeds.feedburner.com/example" type="application/rss+xml" title="RSS" -->
+<!-- link rel="alternate" href="https://example.com/feed.atom" type="application/atom+xml" title="Atom 0.3" -->
+
+<!-- For IE 10 and below -->
+<!-- Place favicon.ico in the root directory - no tag necessary -->
+<link rel="apple-touch-icon" sizes="180x180" href="/assets/img/icons/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/assets/img/icons/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/assets/img/icons/favicon-16x16.png">
+<link rel="mask-icon" href="/assets/img/icons/safari-pinned-tab.svg" color="#5bbad5">
+
+<meta property="fb:app_id" content="">
+<meta property="og:url" content="/about">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Get to know what I'm up too">
+<meta property="og:image" content="">
+<meta property="og:image:alt" content="">
+<meta property="og:description" content="Get to know what I'm up too">
+<meta property="og:site_name" content="About Me">
+<meta property="og:locale" content="en_US">
+<meta property="article:author" content="">
+
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:site" content="@">
+<meta name="twitter:creator" content="@">
+<meta name="twitter:url" content="/about">
+<meta name="twitter:title" content="Get to know what I'm up too">
+<meta name="twitter:description" content="Get to know what I'm up too">
+<meta name="twitter:image" content="">
+<meta name="twitter:image:alt" content="">
+
+<!-- Used for adding in-document CSS -->
+
+
+
+<!-- JavaScript & No-JavaScript tags -->
+
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
+<!--
+<script>
+    $(document).ready(function() {
+        $(".toast").toast('show');
+    });
+</script> -->
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/clipboard.js/2.0.6/clipboard.min.js"></script>
+
+<noscript>
+  <!-- No JS alternative -->
+</noscript>
+  <body>
+    
+<nav class="navbar navbar-expand-lg glowing-border mb-4" style="font-family:Poppins;background-color:#6604f9;">
+  <a class="navbar-brand" href="/index.html"><h4 style="font-family:Noto Sans JP;font-weight:600;color:White;">Shafiqul Alam Khan</h4></a>
+  <button class="navbar-toggler text-black" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <i class="fas fa-caret-down"></i>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav mr-auto">
+        
+              <li class="nav-item">
+                  <a href="about.html" class="nav-link" style="font-family:Poppins;color:White;">About</a>
+              </li>
+        
+              <li class="nav-item">
+                  <a href="blog.html" class="nav-link" style="font-family:Poppins;color:White;">Blog</a>
+              </li>
+        
+              <li class="nav-item">
+                  <a href="contact.html" class="nav-link" style="font-family:Poppins;color:White;">Contact</a>
+              </li>
+        
+    </ul>
+    <ul class="navbar-nav  justify-content-end">
+      <li class="nav-item">
+        
+<!-- Displays Social Media Icons based on _config.yml settings -->
+<span style="color:White;">
+    <i> &nbsp;&nbsp; </i>
+    
+    
+        <a href="https://github.com/sakhan-1111">
+        <span style="color: White;">
+            <i class="fab fa-github-square fa-lg"></i></a>
+        </span>
+    
+    
+        <a href="https://www.linkedin.com/in/shafiqul-alam-khan-999ab3254">
+        <span style="color: White;">
+            <i class="fab fa-linkedin fa-lg"></i></a>
+        </span>
+    
+    
+    
+    
+     
+    <i> &nbsp;&nbsp; </i>
+</span>
+
+      </li>
+    </ul>
+  </div>
+</nav>
+
+    <div class="container">
+      
+      <div class="card border-0">
+          <div class="card-body">
+            <p class="card-text">
+                <h1 class="mx-auto" style="font-family:Courgette;">About Me</h1>
+
+<hr />
+<h2 id="programming-skills"><strong>Programming Skills</strong></h2>
+<hr />
+
+<h4 id="python"><strong>Python</strong></h4>
+<ul>
+  <li>I have been using Python since 2020. I used Python to complete “Data Scientist with Python” career track of <a href="https://www.datacamp.com">DataCamp</a>. I also used Python to complete “Digital Image Processing” course at Texas State University. I have worked with most of the popular libraries such as Pandas, Numpy, Matplotlib, Seaborn, Beautifulsoup, Pillow, Scikit-learn, Scikit-image, Tensorflow etc.</li>
+</ul>
+
+<h4 id="c"><strong>C</strong></h4>
+<ul>
+  <li>I started programming with C during my undergraduate study at Green university of Bangladesh. I took “Computer Programming” and “Computer Programming Laboratory” courses at Green University of Bangladesh. I also used Arduino IDE for “Hand Gesture Controlled Robot”, Arduino IDE is based on C.</li>
+</ul>
+
+<h4 id="assembly-language"><strong>Assembly Language</strong></h4>
+<ul>
+  <li>I took “Microprocessor and Interfacing” and “Microprocessor and Interfacing Laboratory” courses at Green University of Bangladesh. I used assembly language to program Intel 8086 microprocessor.</li>
+</ul>
+
+<h4 id="sql"><strong>SQL</strong></h4>
+<ul>
+  <li>I have used SQL to manipulate databases during “Data Scientist with Python” career track of <a href="https://www.datacamp.com">DataCamp</a>.</li>
+</ul>
+
+<h4 id="htmlcss"><strong>HTML/CSS</strong></h4>
+<ul>
+  <li>I learned to manipulate HTML and CSS by developing this website.</li>
+</ul>
+
+<hr />
+<h2 id="software-and-environments"><strong>Software and Environments</strong></h2>
+<hr />
+
+<h4 id="anaconda"><strong>Anaconda</strong></h4>
+<ul>
+  <li>I am very familiar with Anaconda. I used Anaconda environment to manage python packages. Managing python packages can be problematic depending on the Linux distribution that I am using. Anaconda makes python package management very easy and convenient.</li>
+</ul>
+
+<h4 id="matlab"><strong>MATLAB</strong></h4>
+<ul>
+  <li>I have used MATLAB extensively during my undergraduate study at Green University of Bangladesh. I took “Numerical Techniques Laboratory”,”Numerical Methods”, “Digital Signal Processing Laboratory” and “Power System Protection Laboratory”. These courses required MATLAB and Simulink. I also used MATLAB to complete my undergraduate thesis titled “Segmentation of Breast Tumor from Ultrasound Image using MATLAB”.</li>
+</ul>
+
+<h4 id="linux"><strong>Linux</strong></h4>
+<ul>
+  <li>I started learning about Linux out my own interest. I am familiar with most of popular linux distributions such as Debian, Ubuntu, Fedora, Arch, Red Hat Enterprise Linux(RHEL), CentOS, Void linux, NixOS etc. I have created and managed personal server using Linode. I am also very familiar with Kernel Virtual Machine(KVM) technology.</li>
+</ul>
+
+<h4 id="github"><strong>Github</strong></h4>
+<ul>
+  <li>I have shared my work on GitHub. It makes versioning a project very convenient. I learned a lot from the resources available on GitHub.</li>
+</ul>
+
+<h4 id="comsol-multiphysics"><strong>COMSOL Multiphysics</strong></h4>
+<ul>
+  <li>I used COMSOL multiphysics to simulate Photonic-Crystal Fiber(PCF) during my undergraduate study at Green University of Bangladesh.</li>
+</ul>
+
+<h4 id="ansys-hfss"><strong>ANSYS HFSS</strong></h4>
+<ul>
+  <li>I used ANSYS HFSS to simulate “Broadband Conformal Spiral Antenna Operating in 800 MHz – 3.2 GHz Range” for “Advanced Electronic Circuit Design” course at Texas State University.</li>
+</ul>
+
+<h4 id="orcad-pspice"><strong>OrCAD PSpice</strong></h4>
+<ul>
+  <li>I used PSpice extensively during to validate circuits. I also used PSpice on various projects during my undergraduate study at Green University of Bangladesh.</li>
+</ul>
+
+<h4 id="proteus"><strong>Proteus</strong></h4>
+<ul>
+  <li>I also used Proteus to validate circuits.</li>
+</ul>
+
+<h4 id="arduino"><strong>Arduino</strong></h4>
+<ul>
+  <li>I used Arduino IDE for various projects.</li>
+</ul>
+
+<h4 id="programmable-logic-controller-plc"><strong>Programmable Logic Controller (PLC)</strong></h4>
+<ul>
+  <li>I have worked with various models of Programmable Logic Controller (PLC) at Green University of Bangladesh.</li>
+</ul>
+
+<h4 id="autocad"><strong>AutoCAD</strong></h4>
+<ul>
+  <li>I used AutoCAD for “Engineering Drawing &amp; Electrical Service Design” at Green University of Bangladesh. I used AutoCAD to design conduits for a apartment with multiple rooms.</li>
+</ul>
+
+<h4 id="helioscope"><strong>HelioScope</strong></h4>
+<ul>
+  <li>I used HelioScope to find the optimal location for the PV solar power system during “Feasibility study of PV Solar Power System” and “Solar Home System” projects for “Renewable Energy” course at Green University of Bangladesh.</li>
+</ul>
+
+<h4 id="retscreen"><strong>RETScreen</strong></h4>
+<ul>
+  <li>I used RETScreen to analyze the implementation cost for the “Feasibility study of PV Solar Power System” and “Solar Home System” projects for “Renewable Energy” course at Green University of Bangladesh.</li>
+</ul>
+
+<hr />
+<h2 id="experience"><strong>Experience</strong></h2>
+<hr />
+
+<h4 id="graduate-instructional-assistant--texas-state-university--january-2023---present"><strong>Graduate Instructional Assistant • Texas State University • January 2023 - Present</strong></h4>
+<ul>
+  <li>I assisted undergraduate students with their laboratory experiments, graded their assignments and homework. The courses are listed below:
+    <ul>
+      <li>Electronics I</li>
+      <li>Electronics II</li>
+    </ul>
+  </li>
+</ul>
+
+<hr />
+<h2 id="projects"><strong>Projects</strong></h2>
+<hr />
+
+<h4 id="broadband-conformal-spiral-antenna-operating-in-800-mhz--32-ghz-range--march-2023---may-2023"><strong>Broadband Conformal Spiral Antenna Operating in 800 MHz – 3.2 GHz Range • March 2023 - May 2023</strong></h4>
+<ul>
+  <li>I have worked with Polash Deb and Md. Abdul Hamid under the supervision of <a href="https://faculty.txst.edu/profile/1922465">Dr. Yihong “Maggie” Chen</a> to design and simulate a broadband conformal spiral antenna operating in 800 MHz – 3.2 GHz range. I used ANSYS HFSS to design and simulate the antenna.</li>
+</ul>
+
+<h4 id="digital-image-processing-project--april-2023---may-2023"><strong>Digital Image Processing Project • April 2023 - May 2023</strong></h4>
+<ul>
+  <li>I developed a python program under the supervision of <a href="https://faculty.txst.edu/profile/2019201">Dr. Damian Valles</a>, that takes input image from user then performs and displays a statistics-based filter(arithmetic mean, median, minimum, maximum, geometric mean, harmonic mean and contraharmonic mean), adds simulated noise(white noise, uniform noise, “salt and pepper” noise, gaussian noise, rayleigh noise, erlang noise, exponential noise and sinusoidal noise), removes noise(white noise, uniform noise, gaussian noise, rayleigh noise, erlang noise and exponential noise) and makes color adjustment(color negative; Display of Red, Green, and Blue planes separately; Display of Cyan, Magenta, and Yellow planes separately; Display of Y, Cb, and Cr planes separately; Display of H, S, and V planes separately and Individual adjustments of R, G, and B component) respectively.</li>
+</ul>
+
+<h4 id="three-phase-fault-detection-system--february-2020---march-2020"><strong>Three Phase Fault Detection System • February 2020 - March 2020</strong></h4>
+<ul>
+  <li>I designed a three phase fault detection system using Simulink for “Power System Protection Laboratory” course.</li>
+</ul>
+
+<h4 id="relay-for-three-phase-fault-detection--january-2020---february-2020"><strong>Relay for Three Phase Fault Detection • January 2020 - February 2020</strong></h4>
+<ul>
+  <li>I designed a relay for three phase fault detection using Simulink for “Power System Protection Laboratory” course.</li>
+</ul>
+
+<h4 id="single-phase-ac-ac-converter--november-2019---december-2019"><strong>Single Phase AC-AC Converter • November 2019 - December 2019</strong></h4>
+<ul>
+  <li>I designed and constructed a single phase AC-AC converter for “Power Electronics” course.</li>
+</ul>
+
+<h4 id="single-phase-push-pull-inverter--october-2019---november-2019"><strong>Single Phase Push Pull Inverter • October 2019 - November 2019</strong></h4>
+<ul>
+  <li>I designed and constructed a single phase AC-AC converter for “Power Electronics” course.</li>
+</ul>
+
+<h4 id="three-phase-rectifier--october-2019---november-2019"><strong>Three Phase Rectifier • October 2019 - November 2019</strong></h4>
+<ul>
+  <li>I designed and constructed a three phase rectifier for “Power Electronics” course.</li>
+</ul>
+
+<h4 id="buck-and-boost-converters--september-2019---october-2019"><strong>Buck and Boost Converters • September 2019 - October 2019</strong></h4>
+<ul>
+  <li>I constructed buck and boost converters for “Power Electronics” course.</li>
+</ul>
+
+<h4 id="feasibility-study-of-pv-solar-power-system--july-2019---august-2019"><strong>Feasibility study of PV Solar Power System • July 2019 - August 2019</strong></h4>
+<ul>
+  <li>This was a group project. We studied the feasibility of a PV Solar Power System using HelioScope and RETScreen. We used HelioScope to find the optimal location for the PV solar power system. We used RETScreen to analyze the implementation cost of the project. We did this project for “Renewable Energy” course.</li>
+</ul>
+
+<h4 id="solar-home-system--may-2019---june-2019"><strong>Solar Home System • May 2019 - June 2019</strong></h4>
+<ul>
+  <li>I designed a solar home system using HelioScope and RETScreen for “Renewable Energy” course.</li>
+</ul>
+
+<h4 id="hand-gesture-controlled-robot--march-2019---april-2019"><strong>Hand Gesture Controlled Robot • March 2019 - April 2019</strong></h4>
+<ul>
+  <li>This was a group project. We designed and constructed a hand gesture controlled robot using Arduino Uno for “Communication Theory” course.</li>
+</ul>
+
+<h4 id="traffic-light-control-system--july-2018---august-2018"><strong>Traffic Light Control System • July 2018 - August 2018</strong></h4>
+<ul>
+  <li>I designed a traffic light control system circuit using CD4017 Johnson Counter, NE555 Timer IC for “Digital Electronics” course.</li>
+</ul>
+
+<h4 id="adder-integrator-and-differentiator-using-op-amp--july-2017---august-2017"><strong>Adder, Integrator and Differentiator using OP-Amp • July 2017 - August 2017</strong></h4>
+<ul>
+  <li>I constructed Adder, Integrator and Differentiator circuits using OP-Amp for “Electronics” course.</li>
+</ul>
+
+<hr />
+<h2 id="honors--awards"><strong>Honors &amp; Awards</strong></h2>
+<hr />
+
+<h4 id="certificate-for-outstanding-academic-performance--july-2017"><strong>Certificate for Outstanding Academic Performance • July 2017</strong></h4>
+<ul>
+  <li>I was awarded certificate for outstanding academic performance by the vice chancellor of Green University of Bangladesh.</li>
+</ul>
+
+<h4 id="certificate-for-outstanding-academic-performance--april-2017"><strong>Certificate for Outstanding Academic Performance • April 2017</strong></h4>
+<ul>
+  <li>I was awarded certificate for outstanding academic performance by the vice chancellor of Green University of Bangladesh.</li>
+</ul>
+
+            </p>
+            
+              <p class="card-text"><small class="text-muted">This page was last updated at 2023-08-23 22:16.</small></p>
+            
+          </div>
+      </div>
+      
+    </div>
+    <div class="navbar navbar-default navbar-fixed-bottom">
+  <div class="container">
+    <p class="navbar-text pull-left">© 2023 - Shafiqul Alam Khan
+    </p>
+    <p class="navbar-text pull-right">
+            <!-- Displays Social Media Icons based on _config.yml settings -->
+
+<span style="color: Black;">
+     
+    
+        <a href="https://github.com/sakhan-1111">
+        <span style="color: black;">
+            <i class="fab fa-github-square fa-lg"></i></a>
+        </span>
+    
+    
+        <a href="https://www.linkedin.com/in/shafiqul-alam-khan-999ab3254">
+        <span style="color: black;">
+            <i class="fab fa-linkedin fa-lg"></i></a>
+        </span>
+    
+    
+    
+    
+     
+    <i> &nbsp;&nbsp; </i>
+</span>
+
+    </p>
+  </div>
+</div> 
+
+<script>
+  $(function () {
+    $('[data-toggle="popover"]').popover()
+  })
+</script>
+
+  </body>
+</html>
